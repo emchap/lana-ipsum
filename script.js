@@ -74,7 +74,7 @@ document.getElementById("button").addEventListener("click", function(e){
     
     for(var i = 0; i<loremLength; i+=1) {
       if (i == 0) {
-        loremText += capitalize(chooseWord())
+        loremText += "<p>" + capitalize(chooseWord())
         wordsSoFar = 1
       }
       else if (Math.random() > .8 && wordsSoFar >= sentenceLength)  {
@@ -82,7 +82,7 @@ document.getElementById("button").addEventListener("click", function(e){
           loremText += ". " + capitalize(chooseWord())
         }
         else {
-          loremText += ". <br><br>" + capitalize(chooseWord())
+          loremText += ". </p><p>" + capitalize(chooseWord())
         }
         wordsSoFar = 1
       }
@@ -91,7 +91,7 @@ document.getElementById("button").addEventListener("click", function(e){
         wordsSoFar += 1
       }
     }
-    loremText += "."
+    loremText += ".</p>"
     document.getElementById("textbox").innerHTML = loremText
   })
 

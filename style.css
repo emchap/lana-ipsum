@@ -1,0 +1,31 @@
+#wrapper {
+    background-color: #660066;
+}
+
+#options, #textbox, #intro-container, #title-container {
+	padding: 30px	
+}
+
+button {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #e600e6;
+    font-weight: bold;
+    font-size: 16pt
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 72pt;
+	color: #ffffff
+}
+
+#textbox {
+	background-color: #ffe6ff;
+}
+
+div {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 14pt;
+}

@@ -1,11 +1,62 @@
+<!DOCTYPE html> 
 <html>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity>
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+
 <head>
+<meta charset="utf­8">
+<title>Lana Ipsum</title> 
 </head>
+
 <body>
-  Length: <input type="text" id="userlength" value="100"> <br />
-  Minimum sentence length: <input type="text" id="sentencelength" value="4"><br />
-  <button id="button">Submit</button>
-  <div id="textbox"></div>
-  <script src="script.js"></script>
+
+<div class="container-full text-center" id="wrapper">
+
+			<div id="title-container">
+				<h1>Lana ipsum</h1>
+			</div>
+
+</div>
+
+<div class="container text-left">
+	<div id="intro-container">
+		<h2><small>A lorem ipsum generator inspired by <a href="http://lanadelrey.com">Lana Del Rey</a>. Pick your options and get some of that summertime sadness.</small></h2>
+	</div>
+	
+	<div id="options" class="form">
+		<div class="form-group">
+			<label for="userlength">
+				Number of words:
+			</label> 
+				<input type="text" class="form-control" id="userlength" value="100">
+		</div> <br />
+		
+		<div class="form-group">
+			<label for="sentencelength">
+				Minimum sentence length in words: 
+			</label>
+			<input type="text" class="form-control" id="sentencelength" value="5">
+		</div><br />
+		
+		<div class="text-center">
+			<button id="button">Lana me</button>
+		</div>
+	</div>
+	
+	<div id="textbox" class="text-justify">What's the word?</div>
+</div>
+
+<br/><br/>
+
+<div class="well">
+	<p>About the developer: Emily Chapman lives in Brooklyn, NY. You can read her <a href="http://www.emchap.com">blog</a>, find her on <a href="http://www.twitter.com/eachapm">Twitter</a>, or shoot her a line at emily [at] emchap [dot] com.</p>
+</div>
+	
+
+<script src="script.js"></script>  
 </body>
 </html>
+
