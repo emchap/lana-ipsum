@@ -5,8 +5,6 @@ var words = [
 	"ocean",
 	"America",
 	"mustang",
-	"fuck-me",
-	"pumps",
 	"cherry red",
 	"beach",
 	"night",
