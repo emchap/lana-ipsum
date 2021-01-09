@@ -5,7 +5,7 @@ var words = [
 	"ocean",
 	"America",
 	"mustang",
-    "pumps",
+	"pumps",
 	"cherry red",
 	"beach",
 	"night",
